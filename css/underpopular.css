@@ -1,0 +1,28 @@
+.under-popular {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 14px;
+  & .container__underpopular {
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    gap: 18px;
+    display: flex;
+    & .right__popular {
+      & img {
+        width: 660px;
+        height: 264px;
+        border-radius: 30px;
+      }
+    }
+    & .left__popular {
+      & img {
+        width: 660px;
+        height: 264px;
+        border-radius: 30px;
+      }
+    }
+  }
+}

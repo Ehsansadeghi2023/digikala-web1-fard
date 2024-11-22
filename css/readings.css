@@ -1,0 +1,60 @@
+.readings {
+  margin-top: 16px;
+  width: 100%;
+  height: 345px;
+  & .container__readings {
+    width: 100%;
+    height: 100%;
+    & .readings__header {
+      width: 100%;
+      height: 65px;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & .readings__title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 2.1;
+        color: #0c0c0c;
+      }
+      & .readings__readmore {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & svg {
+          color: #19bfd3;
+        }
+        & .readings__seemore {
+          color: #19bfd3;
+          font-weight: 500;
+          font-size: 16px;
+        }
+      }
+    }
+    & .readings__noun {
+      width: 100%;
+      height: 280px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      & .readings__case {
+        width: 325px;
+        height: 100%;
+        border: 2px solid #c0c2c5;
+        border-radius: 16px;
+        & .readings__case-title {
+          font-size: 14px;
+          font-weight: 500;
+          color: #424750;
+          padding: 0 20px;
+        }
+        & .readings-img {
+          border-radius: 16px 16px 0 0;
+          width: 100%;
+          height: calc(3 / 4 * 280px);
+        }
+      }
+    }
+  }
+}

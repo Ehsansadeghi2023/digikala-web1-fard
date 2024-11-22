@@ -1,0 +1,114 @@
+.footer {
+  width: 1343px;
+  height: 620px;
+  border-top: 2px solid #c0c2c5;
+  margin: 0 auto;
+  margin-top: 24px;
+  
+  & .footer__top {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    & .footer__top-right {
+       .footer-tel {
+        font-size: 16px;
+        font-weight: 500;
+        color: #424750;
+        margin-top: 20px;
+      }
+    }
+    & .footer__top-left {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #e0e0e2;
+      border-radius: 8px;
+      padding: 8px 14px;
+      & svg {
+        fill: #e0e0e2;
+      }
+      & .footer__return-top {
+        font-size: 16px;
+        font-weight: 500;
+        color: #a1a3a8;
+        padding: 0 0 0 8px;
+      }
+    }
+  }
+  & .footer__capability {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & .footer__5logo {
+      width: 290px;
+      height: 103px;
+      margin: 30px;
+      & .footer__5logo-img {
+        width: 100%;
+        height: 60px;
+      }
+      & .footer__capability-title {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3f4064;
+        text-align: center;
+      }
+    }
+  }
+  & .withdigi {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 30px;
+    & .Latest__discounts {
+      font-size: 18px;
+      font-weight: 500;
+      color: #3f4064;
+    }
+    & .subzero {
+      font-size: 18px;
+      font-weight: 300;
+      color: #424750;
+    }
+    & .withus {
+      & .footer__social {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        gap: 50px;
+        margin: 10px 0;
+      }
+      & svg {
+        color: #a1a3a8;
+        width: 30px;
+        height: 30px;
+      }
+      & .email {
+        margin-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+        & .mail{
+          font-size: 16px;
+          font-weight: 500;
+          background-color: #f0f0f1;
+          padding: 13px 13px 13px 200px;
+          border-radius: 10px;
+          color: #3f4064;
+        }
+        & .submit {
+          font-size: 16px;
+          font-weight: 500;
+          background-color: #c0c2c5;
+          color: #fafafa;
+          padding: 13px;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+}

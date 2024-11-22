@@ -1,0 +1,91 @@
+.digishop {
+  width: 1343px;
+  height: 223px;
+  margin: 0 auto;
+  margin-top: 28px;
+  border-top: 1px solid #f0f0f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 200px;
+  & .digishop__top-right {
+    margin-right: 20px;
+    & .digishop__title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #62666d;
+      margin-top: 20px;
+    }
+    & .digishop__description {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 26.4px;
+      color: #81858b;
+    }
+    & .digishop__seemore {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      & svg {
+        color: #19bfd3;
+        width: 30px;
+        height: 30px;
+      }
+      & h3 {
+        color: #19bfd3;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 26.4px;
+      }
+    }
+  }
+  & .digishop__imges {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    & .digishop-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      border: 2px solid #424750;
+      padding: 20px;
+    }
+  }
+}
+.copyright {
+  width: 1343px;
+  height: 88px;
+  border-top: 1px solid #f0f0f1;
+  margin: 0 auto;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .compyright-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2.17;
+    color: #81858b;
+  }
+}
+.subsidiary {
+  width: 1343px;
+  height: 160px;
+  margin: 0 auto;
+  background-color: #e0e0e2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: right;
+  & img {
+    width: 167.8px;
+    height: 80px;
+    border: 1px solid #c0c2c5;
+    padding: 0 40px;
+  }
+  & .two{
+      width: 223.69px;
+    height: 80px;
+  }
+}

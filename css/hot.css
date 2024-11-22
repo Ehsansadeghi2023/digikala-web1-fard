@@ -1,0 +1,97 @@
+.hot-selling {
+  margin-top: 16px;
+  width: 100%;
+  height: 403px;
+  & .container__hot-selling {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: 2px solid #c0c2c5;
+    & .hot__header {
+      display: flex;
+      padding-top: 30px;
+      justify-content: left;
+      align-items: center;
+      gap: calc(1336px / 3);
+      height: 44px;
+      width: 100%;
+      & .hot__titles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        & svg {
+          width: 50px;
+          height: 50px;
+          padding: 13px 0;
+          fill: #f9a825;
+        }
+        & .hot__title {
+        }
+      }
+      & .hot-seeall {
+        margin-left: 20px;
+        color: #19bfd3 ;
+        font-size: 18px;
+        font-weight: 800;
+      }
+    }
+  }
+  .swiper {
+    width: 100%;
+    height: 293px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    & .swiper-button-next,
+    .swiper-button-prev {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #e0e0e2;
+      background-color: fafafa;
+      border-radius: 50%;
+      &::after {
+        font-size: 16px;
+        color: #424750;
+      }
+    }
+    & .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      height: calc(100% / 3) !important;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      gap: 10px;
+      & .container__hot-img {
+        width: 86px;
+        height: 86px;
+        & img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      & .hotsell-ads {
+        width: 290px;
+        border-bottom: 2px solid #c0c2c5;
+        margin-left: 20px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 30px;
+        & .hotsell-number {
+          color: #19bfd3;
+          font-size: 32px;
+          font-weight: bold;
+        }
+        & .hotsell-product {
+          color: #1b1b1b;
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
